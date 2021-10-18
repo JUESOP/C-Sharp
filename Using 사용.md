@@ -23,7 +23,7 @@ using Project = PC.MyCompany.Project; // 별칭
 개체의 범위를 정의할때 사용한다. 그 범위를 벗어나면 자동으로 Dispose 된다.   
 .         
 
-File이나 Font, DB Connection 관련 클래스들은 관리되자 않는 리소스에 액세스 합니다. 다 사용후 적절하게 Dispose해서 자원을
+File이나 Font, DB Connection 관련 클래스들은 관리되지 않는 리소스에 액세스 합니다. 다 사용후 적절하게 Dispose해서 자원을
 
 반납해야 합니다. 하지만 종종 Dispose를 하지 않아서 리소스가 낭비되거나 DB Connection 같은 것을 Open만하고 Close하지 않으면
 
