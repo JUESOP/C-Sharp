@@ -1,1 +1,1 @@
-ggyu-kim.tistiry.com/51
+ggyu-kim.tistory.com/51
